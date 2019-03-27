@@ -16,7 +16,7 @@ public class OrganizationTest extends BaseClass{
 	@Test
 	public void createOrganizationTest() throws Throwable{
 		
-		//Read data from excel
+		//Read data from excel file
 		String organizationName = fLib.getExcelData("Sheet1", 1, 2);
 		//Click on Organization link
 		HomePage hp = PageFactory.initElements(driver, HomePage.class);
